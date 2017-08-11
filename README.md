@@ -14,7 +14,9 @@ How To Install:
 - Flash Zip form TWRP
 - Reboot
 - Done
-OR
+
+# # # OR # # #
+
 - Open Magisk Manager
 - Go to Modules
 - Click Add Button
