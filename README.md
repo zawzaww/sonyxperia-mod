@@ -15,8 +15,6 @@ How To Install:
 - Reboot
 - Done
 
-# # # OR # # #
-
 - Open Magisk Manager
 - Go to Modules
 - Click Add Button
