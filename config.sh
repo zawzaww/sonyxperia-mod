@@ -129,11 +129,6 @@ set_permissions() {
   # Default permissions, don't remove them
   set_perm_recursive  $MODPATH  0  0  0755  0644
 
-  # set_perm_recursive_dir
-  set_perm_recursive  $MODPATH/system/app              0  0  0755  0644
-  set_perm_recursive  $MODPATH/system/etc/permissions  0  0  0755  0644
-  set_perm_recursive  $MODPATH/system/framework        0  0  0755  0644
-
   # set_perm_file
   set_perm  $MODPATH/system/addon.d/purezxperia.sh  0  0  0755
 
