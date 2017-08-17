@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.sonyericsson.video.player.service_1"
+        file="/system/framework/com.sonyericsson.video.player.service.jar"/>
+</permissions>
