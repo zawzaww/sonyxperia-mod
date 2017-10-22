@@ -4,14 +4,19 @@
 # by topjohnwu
 #
 ##########################################################################################
+
 # This will be the folder name under /magisk
-MODID=purezmod
+MODID=purezxperiamod
+
 # Most mods would like it to be enabled
 AUTOMOUNT=true
+
 # Set to true if you need to load system.prop
 PROPFILE=false
+
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
+
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
 
@@ -20,7 +25,7 @@ print_modname() {
   ui_print "***  PureZ Xperia MOD for all Devices  ***"
   ui_print "***     ==========================     ***"
   ui_print "***      Magisk Moudle/Flashable       ***"
-  ui_print "***           (version-3.0)            ***"
+  ui_print "***           (version-2.0)            ***"
   ui_print "***                 By                 ***"
   ui_print "***       zawzaw @xda-developers       ***"
   ui_print "***                                    ***"
