@@ -5,6 +5,14 @@
 #
 ##########################################################################################
 
+#########################################################
+#                                                       #
+# PureZ Xperia MOD for all Devices                      #
+# by ZawZaw @xda-developers                             #
+#                                                       #
+#########################################################
+
+
 # This will be the folder name under /magisk
 MODID=purezxperiamod
 
@@ -25,9 +33,12 @@ print_modname() {
   ui_print "***  PureZ Xperia MOD for all Devices  ***"
   ui_print "***     ==========================     ***"
   ui_print "***      Magisk Moudle/Flashable       ***"
+  ui_print "***                                    ***"
   ui_print "***           (version-2.0)            ***"
-  ui_print "***                 By                 ***"
-  ui_print "***       zawzaw @xda-developers       ***"
+  ui_print "***                                    ***"
+  ui_print "***                 BY                 ***"
+  ui_print "***                                    ***"
+  ui_print "***        ZawZaw @xda-developers      ***"
   ui_print "***                                    ***"
   ui_print "******************************************"
 }
