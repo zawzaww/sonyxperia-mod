@@ -1,4 +1,6 @@
 #!/sbin/sh
+# PuerZ Xperia MOD Script
+# by ZawZaw @xda-developers
 
 . /tmp/backuptool.functions
 
