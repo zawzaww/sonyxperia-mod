@@ -10,16 +10,15 @@
 #
 # 1. Place your files into system folder (delete the placeholder file)
 # 2. Fill in your module's info into module.prop
-# 3. Configure the settings in this file (common/config.sh)
-# 4. For advanced features, add shell commands into the script files under common:
-#    post-fs-data.sh, service.sh
-# 5. For changing props, add your additional/modified props into common/system.prop
+# 3. Configure the settings in this file (config.sh)
+# 4. If you need boot scripts, add them into common/post-fs-data.sh or common/service.sh
+# 5. Add your additional or modified system properties into common/system.prop
 #
 ##########################################################################################
 
 #########################################################
 #                                                       #
-# PureZ Xperia MOD for all Devices                      #
+# PureZ Xperia MOD for all Android 5.0+ Devices         #
 # by ZawZaw @xda-developers                             #
 #                                                       #
 #########################################################
@@ -41,24 +40,33 @@ POSTFSDATA=false
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
 
+##########################################################################################
+# Installation Message
+##########################################################################################
+# Set what you want to show when installing your mod
 print_modname() {
   ui_print "******************************************"
   ui_print "***  PureZ Xperia MOD for all Devices  ***"
   ui_print "***     ==========================     ***"
   ui_print "***      Magisk Moudle/Flashable       ***"
   ui_print "***                                    ***"
-  ui_print "***           (version-2.0)            ***"
+  ui_print "***           (version-3.0)            ***"
   ui_print "***                                    ***"
   ui_print "***                 BY                 ***"
-  ui_print "***                                    ***"
   ui_print "***        ZawZaw @xda-developers      ***"
   ui_print "***                                    ***"
   ui_print "******************************************"
 }
-# You don't need to remove the example below, these values will be overwritten by your own list
+
+##########################################################################################
+# Replace list
+##########################################################################################
+# This is an example
 REPLACE="
 "
-# Construct your own list here, it will overwrite
+
+# Construct your own list here, it will override the example above
+# !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
 /system/addon.d/purezxperia.sh
 /system/app/SemcHome/XperiaHome.apk
@@ -125,3 +133,13 @@ set_permissions() {
   # Set purezxperia permission file
   set_perm $MODPATH/system/addon.d/purezxperia.sh  0  0  0755
 }
+
+##########################################################################################
+# Custom Functions
+##########################################################################################
+
+# This file (config.sh) will be sourced by the main flash script after util_functions.sh
+# If you need custom logic, please add them here as functions, and call these functions in
+# update-binary. Refrain from adding code directly into update-binary, as it will make it
+# difficult for you to migrate your modules to newer template versions.
+# Make update-binary as clean as possible, try to only do function calls in it.

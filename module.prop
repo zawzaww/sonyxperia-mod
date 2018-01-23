@@ -1,7 +1,7 @@
 id=purezxperiamod
 name=PureZ Xperia MOD
-version=v3.0
+version=3.0
 versionCode=3
 author=ZawZaw
 description=PureZ XperiaMOD is Sony Xperia Home + Theme Icons + Xperia Apps for all Devices
-template=1400
+minMagisk=1500
