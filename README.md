@@ -2,16 +2,14 @@
 
 # PureZ Xperia MOD
 
-## Xperia Home + ThemeIcons + Sony Xperia Apps
+### PureZ Xperia MOD (Magisk Module) : Xperia Home + ThemeIcons + Sony Xperia Apps
 
-PureZ Xperia MOD (Magisk Module) is Xperia Home + ThemeIcons + Sony Xperia Apps
-
-Requirements:
+### Requirements:
 - Android 5.0 and Up
 - Magisk 15.0 and Up
 - TWRP Recovery or Magisk Manager
 
-How To Install:
+### How To Install:
 - Donwnload PureZ Xperia MOD Zip
 - Flash Zip form TWRP
 - Reboot
