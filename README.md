@@ -25,4 +25,4 @@
 - Then,You need to Reboot
 - Done
 
-Contributed by: ZawZaw @xda-developers
+// Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
