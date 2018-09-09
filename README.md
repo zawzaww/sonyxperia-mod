@@ -1,4 +1,4 @@
-<img src="https://s20.postimg.org/r6nu0344d/Screenshot_20170720-222914.jpg" />
+<img src="https://s20.postimg.cc/r6nu0344d/Screenshot_20170720-222914.jpg" />
 
 # PureZ Xperia MOD
 
@@ -25,4 +25,4 @@
 - Then,You need to Reboot
 - Done
 
-// Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
+Contributed by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
